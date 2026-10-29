@@ -1,0 +1,4174 @@
+{
+  "generado": "2026-10-26T22:21:12.239Z",
+  "fuentes": [
+    "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx · hoja \"seguim_1°_infanc\"",
+    "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx · hoja \"Base_Nominal\"",
+    "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx · hoja \"BD\"",
+    "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx · hoja \"BASE DE PUERPERIO\""
+  ],
+  "secciones": [
+    {
+      "id": "identificacion",
+      "titulo": "Identificación del reporte y del prestador"
+    },
+    {
+      "id": "madre",
+      "titulo": "Datos de la madre y contacto"
+    },
+    {
+      "id": "consentimiento",
+      "titulo": "Consentimiento"
+    },
+    {
+      "id": "rn",
+      "titulo": "Datos del recién nacido"
+    },
+    {
+      "id": "tamizajes",
+      "titulo": "Tamizajes neonatales (cuatro líneas)"
+    },
+    {
+      "id": "atencion",
+      "titulo": "Atención neonatal, vacunación y seguimiento"
+    },
+    {
+      "id": "gestacion",
+      "titulo": "Gestación y control prenatal"
+    },
+    {
+      "id": "parto",
+      "titulo": "Parto, aborto y puerperio"
+    },
+    {
+      "id": "morbilidad",
+      "titulo": "Morbilidad materna extrema y defunción"
+    },
+    {
+      "id": "cierre",
+      "titulo": "Gestión del riesgo y cierre del caso"
+    }
+  ],
+  "campos": [
+    {
+      "id": "p001",
+      "seccion": "identificacion",
+      "subseccion": "Ubicación del prestador",
+      "etiqueta": "PAIS",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna A"
+      ]
+    },
+    {
+      "id": "p002",
+      "seccion": "identificacion",
+      "subseccion": "Ubicación del prestador",
+      "etiqueta": "Departamento",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna B"
+      ]
+    },
+    {
+      "id": "p003",
+      "seccion": "identificacion",
+      "subseccion": "Ubicación del prestador",
+      "etiqueta": "Municipio",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna C"
+      ]
+    },
+    {
+      "id": "p004",
+      "seccion": "identificacion",
+      "subseccion": "Ubicación del prestador",
+      "etiqueta": "Nombre IPS",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna D"
+      ]
+    },
+    {
+      "id": "p005",
+      "seccion": "madre",
+      "subseccion": "Datos de la madre",
+      "etiqueta": "Tipo de documento de la madre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna E",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna S",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna C"
+      ]
+    },
+    {
+      "id": "p006",
+      "seccion": "madre",
+      "subseccion": "Datos de la madre",
+      "etiqueta": "Número de identificación de la madre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna F",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna T",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna D"
+      ]
+    },
+    {
+      "id": "p007",
+      "seccion": "madre",
+      "subseccion": "Datos de la madre",
+      "etiqueta": "Nombre de la madre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna G",
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna H"
+      ]
+    },
+    {
+      "id": "p008",
+      "seccion": "madre",
+      "subseccion": "Datos de la madre",
+      "etiqueta": "Apellido de la Madre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna I",
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna J"
+      ]
+    },
+    {
+      "id": "p009",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Tipo de documento del recién nacido",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna K",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna F"
+      ]
+    },
+    {
+      "id": "p010",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Número de documento del recién nacido",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna L",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna G"
+      ]
+    },
+    {
+      "id": "p011",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "CAMBIO A REGISTRO CIVIL",
+      "tipo": "si_no",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna M"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p012",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Primer Apellido",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna N"
+      ]
+    },
+    {
+      "id": "p013",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Segundo Apellido",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna O"
+      ]
+    },
+    {
+      "id": "p014",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Primer Nombre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna P"
+      ]
+    },
+    {
+      "id": "p015",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Segundo Nombre",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna Q"
+      ]
+    },
+    {
+      "id": "p016",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Fecha Nacimiento",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna R",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna I"
+      ]
+    },
+    {
+      "id": "p017",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Sexo del recién nacido",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna S",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna K"
+      ],
+      "opciones": [
+        "F",
+        "M",
+        "I"
+      ]
+    },
+    {
+      "id": "p018",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Edad",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna T"
+      ]
+    },
+    {
+      "id": "p019",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Pertenencia étnica",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna U"
+      ],
+      "opciones": [
+        "Arhuaco",
+        "Kogui",
+        "Wiwa",
+        "Kankuamo",
+        "Wayuu",
+        "Yukpa",
+        "Ette Ennaka (Chimila)",
+        "Otro pueblo indígena",
+        "No indígena"
+      ]
+    },
+    {
+      "id": "p020",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Nombre comunidad Indígena",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna V"
+      ]
+    },
+    {
+      "id": "p021",
+      "seccion": "rn",
+      "subseccion": "Datos generales del recién nacido",
+      "etiqueta": "Régimen",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna W"
+      ]
+    },
+    {
+      "id": "p022",
+      "seccion": "rn",
+      "subseccion": "Atención al nacer",
+      "etiqueta": "Consulta de Recién Nacido",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna X"
+      ]
+    },
+    {
+      "id": "p023",
+      "seccion": "rn",
+      "subseccion": "Atención al nacer",
+      "etiqueta": "Peso al nacer (g)",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna Y",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna L"
+      ]
+    },
+    {
+      "id": "p024",
+      "seccion": "rn",
+      "subseccion": "Atención al nacer",
+      "etiqueta": "Edad gestacional al nacer (semanas)",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna Z",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna M"
+      ]
+    },
+    {
+      "id": "p025",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Fecha TSH Neonatal",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AA"
+      ]
+    },
+    {
+      "id": "p026",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Resultado de TSH Neonatal",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AB"
+      ],
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Muestra rechazada",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p027",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Fecha de tamizaje auditivo neonatal",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AC"
+      ]
+    },
+    {
+      "id": "p028",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Resultado tamizaje auditivo neonatal",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AD"
+      ],
+      "opciones": [
+        "Pasa",
+        "No pasa",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p029",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Fecha de tamizaje visual neonatal",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AE"
+      ]
+    },
+    {
+      "id": "p030",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Resultado tamizaje visual neonatal",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AF"
+      ],
+      "opciones": [
+        "Normal",
+        "Anormal",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p031",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Fecha tamización con oximetría pre y post ductal",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AG"
+      ]
+    },
+    {
+      "id": "p032",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes neonatales (seguimiento)",
+      "etiqueta": "Resultado Tamización con oximetría pre y post ductal",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AH"
+      ]
+    },
+    {
+      "id": "p033",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "1 M – Consulta por Medicina",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AI"
+      ]
+    },
+    {
+      "id": "p034",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "2 - M – Consulta por Enfermeria",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AJ"
+      ]
+    },
+    {
+      "id": "p035",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "4- 5 M – Consulta por Medicina",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AK"
+      ]
+    },
+    {
+      "id": "p036",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "6 -8 M – Consulta por Enfermeria",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AL"
+      ]
+    },
+    {
+      "id": "p037",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "9 - 11 M – Consulta por Enfermeria",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AM"
+      ]
+    },
+    {
+      "id": "p038",
+      "seccion": "atencion",
+      "subseccion": "Consultas de valoración integral",
+      "etiqueta": "12 - 18 M – Consulta por Medicina",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AN"
+      ]
+    },
+    {
+      "id": "p039",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha Consulta Nutrición",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AO"
+      ]
+    },
+    {
+      "id": "p040",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha del Peso",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AP"
+      ]
+    },
+    {
+      "id": "p041",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Peso en Kilogramos",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AQ"
+      ]
+    },
+    {
+      "id": "p042",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha de la Talla",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AR"
+      ]
+    },
+    {
+      "id": "p043",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Talla en Centímetros",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AS"
+      ]
+    },
+    {
+      "id": "p044",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Z-score Peso/Talla",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AT"
+      ]
+    },
+    {
+      "id": "p045",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Z-score Talla/Edad",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AU"
+      ]
+    },
+    {
+      "id": "p046",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Clasificación Nutricional",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AV"
+      ]
+    },
+    {
+      "id": "p047",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha anterior de suministro de desparasitación antihelmíntica",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AW"
+      ]
+    },
+    {
+      "id": "p048",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha más reciente de suministro de desparasitación antihelmíntica",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AX"
+      ]
+    },
+    {
+      "id": "p049",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD NUTRICIONAL – Fecha de suministro de fortificcaion casera",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AY"
+      ]
+    },
+    {
+      "id": "p050",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD VISUAL – Fecha másreciente de agudeza visual",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna AZ"
+      ]
+    },
+    {
+      "id": "p051",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD VISUAL – Resultado más reciente de Agudeza Visual OD",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BA"
+      ]
+    },
+    {
+      "id": "p052",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD VISUAL – Resultado más reciente de Agudeza Visual OI",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BB"
+      ]
+    },
+    {
+      "id": "p053",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD VISUAL – Fecha Consulta Optometría",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BC"
+      ]
+    },
+    {
+      "id": "p054",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD BUCAL – Fecha anterior de Consulta Odontológica",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BD"
+      ]
+    },
+    {
+      "id": "p055",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "SALUD BUCAL – Fecha más reciente de Consulta Odontológica",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BE"
+      ]
+    },
+    {
+      "id": "p056",
+      "seccion": "atencion",
+      "subseccion": "Antecedentes personales",
+      "etiqueta": "Fecha más reciente de Hospitalización",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BF"
+      ]
+    },
+    {
+      "id": "p057",
+      "seccion": "atencion",
+      "subseccion": "Antecedentes personales",
+      "etiqueta": "Motivo de Hospitalización",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BG"
+      ]
+    },
+    {
+      "id": "p058",
+      "seccion": "cierre",
+      "subseccion": "Seguimiento en el programa",
+      "etiqueta": "Comportamiento en el programa",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BH"
+      ]
+    },
+    {
+      "id": "p059",
+      "seccion": "cierre",
+      "subseccion": "Seguimiento en el programa",
+      "etiqueta": "Fecha de Próxima consulta",
+      "tipo": "fecha",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BI"
+      ]
+    },
+    {
+      "id": "p060",
+      "seccion": "parto",
+      "subseccion": "Lugar del parto",
+      "etiqueta": "CLINICA O ESE DONDE OCURRIO EL PARTO",
+      "tipo": "texto",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BK"
+      ]
+    },
+    {
+      "id": "p061",
+      "seccion": "atencion",
+      "subseccion": "Valoración en salud",
+      "etiqueta": "Peso",
+      "tipo": "numero",
+      "origen": [
+        "BASE SEGUIMIENTO PRIMERA INFANCIA 2026 semana 38 .xlsx / seguim_1°_infanc / columna BL"
+      ]
+    },
+    {
+      "id": "p062",
+      "seccion": "identificacion",
+      "subseccion": "Identificación del reporte",
+      "etiqueta": "Mes de reporte (AAAA-MM)",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna A"
+      ]
+    },
+    {
+      "id": "p063",
+      "seccion": "identificacion",
+      "subseccion": "Identificación del reporte",
+      "etiqueta": "IPS que reporta",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna B"
+      ]
+    },
+    {
+      "id": "p064",
+      "seccion": "identificacion",
+      "subseccion": "Identificación del reporte",
+      "etiqueta": "Código REPS",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna C"
+      ]
+    },
+    {
+      "id": "p065",
+      "seccion": "identificacion",
+      "subseccion": "Identificación del reporte",
+      "etiqueta": "Municipio IPS",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna D"
+      ]
+    },
+    {
+      "id": "p066",
+      "seccion": "identificacion",
+      "subseccion": "Identificación del reporte",
+      "etiqueta": "Regional Dusakawi",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna E"
+      ]
+    },
+    {
+      "id": "p067",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Nombres y apellidos RN",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna H"
+      ]
+    },
+    {
+      "id": "p068",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Hora nacimiento",
+      "tipo": "hora",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna J"
+      ]
+    },
+    {
+      "id": "p069",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Lugar de nacimiento",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna N"
+      ],
+      "opciones": [
+        "Institucional",
+        "Domiciliario",
+        "Otro"
+      ]
+    },
+    {
+      "id": "p070",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Pueblo indígena",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna O"
+      ],
+      "opciones": [
+        "Arhuaco",
+        "Kogui",
+        "Wiwa",
+        "Kankuamo",
+        "Wayuu",
+        "Yukpa",
+        "Ette Ennaka (Chimila)",
+        "Otro pueblo indígena",
+        "No indígena"
+      ]
+    },
+    {
+      "id": "p071",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Comunidad / resguardo",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna P"
+      ]
+    },
+    {
+      "id": "p072",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Municipio residencia",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna Q"
+      ]
+    },
+    {
+      "id": "p073",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido",
+      "etiqueta": "Fecha egreso RN",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna R"
+      ]
+    },
+    {
+      "id": "p074",
+      "seccion": "madre",
+      "subseccion": "Madre o contacto",
+      "etiqueta": "Nombre madre",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna U"
+      ]
+    },
+    {
+      "id": "p075",
+      "seccion": "madre",
+      "subseccion": "Madre o contacto",
+      "etiqueta": "Teléfono 1",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna V"
+      ]
+    },
+    {
+      "id": "p076",
+      "seccion": "madre",
+      "subseccion": "Madre o contacto",
+      "etiqueta": "Teléfono 2",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna W"
+      ]
+    },
+    {
+      "id": "p077",
+      "seccion": "consentimiento",
+      "subseccion": "Consentimiento del sustituto",
+      "etiqueta": "Consentimiento sustituto firmado",
+      "tipo": "si_no",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna X"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p078",
+      "seccion": "consentimiento",
+      "subseccion": "Consentimiento del sustituto",
+      "etiqueta": "Fecha consentimiento",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna Y"
+      ]
+    },
+    {
+      "id": "p079",
+      "seccion": "consentimiento",
+      "subseccion": "Consentimiento del sustituto",
+      "etiqueta": "Observación consentimiento",
+      "tipo": "area",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna Z"
+      ]
+    },
+    {
+      "id": "p080",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Tipo de muestra",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AA"
+      ],
+      "opciones": [
+        "Talón",
+        "Cordón",
+        "Talón + Cordón",
+        "No tomada"
+      ]
+    },
+    {
+      "id": "p081",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha toma talón",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AB"
+      ]
+    },
+    {
+      "id": "p082",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Hora toma talón",
+      "tipo": "hora",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AC"
+      ]
+    },
+    {
+      "id": "p083",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Horas de vida al tomar",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AD"
+      ],
+      "formula": "horas_vida_toma"
+    },
+    {
+      "id": "p084",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Oportunidad toma",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AE"
+      ]
+    },
+    {
+      "id": "p085",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Alimentación al momento de la toma",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AF"
+      ],
+      "opciones": [
+        "Leche materna",
+        "Fórmula estándar",
+        "Fórmula especial",
+        "NPT",
+        "Ayuno/<3 tomas"
+      ]
+    },
+    {
+      "id": "p086",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Laboratorio que procesa",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AG"
+      ]
+    },
+    {
+      "id": "p087",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha envío al laboratorio",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AH"
+      ]
+    },
+    {
+      "id": "p088",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha resultado tamizaje",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AI"
+      ]
+    },
+    {
+      "id": "p089",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Resultado tamizaje",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AJ"
+      ],
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Muestra rechazada",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p090",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Patología con resultado positivo",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AK"
+      ],
+      "opciones": [
+        "Hipotiroidismo congénito",
+        "Fenilcetonuria",
+        "Galactosemia",
+        "Fibrosis quística",
+        "Hiperplasia suprarrenal congénita",
+        "Déficit de biotinidasa",
+        "Defectos de la hemoglobina",
+        "Varias",
+        "No aplica"
+      ]
+    },
+    {
+      "id": "p091",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Retamizaje indicado (motivo)",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AL"
+      ],
+      "opciones": [
+        "Prematuro <37 sem (2 semanas)",
+        "Gemelo monocoriónico (día 5)",
+        "Muestra rechazada",
+        "Fórmula especial/NPT",
+        "Toma <24 h",
+        "No aplica"
+      ]
+    },
+    {
+      "id": "p092",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha retamizaje",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AM"
+      ]
+    },
+    {
+      "id": "p093",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Resultado retamizaje",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AN",
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BD"
+      ],
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Muestra rechazada",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p094",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha rellamado a la familia",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AO"
+      ]
+    },
+    {
+      "id": "p095",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha toma prueba confirmatoria",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AP"
+      ]
+    },
+    {
+      "id": "p096",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Horas resultado → confirmatoria",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AQ"
+      ]
+    },
+    {
+      "id": "p097",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Resultado confirmatorio",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AR"
+      ],
+      "opciones": [
+        "Confirmado",
+        "Descartado",
+        "Pendiente",
+        "No aplica"
+      ]
+    },
+    {
+      "id": "p098",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha lectura por pediatría/neonatología",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AS"
+      ]
+    },
+    {
+      "id": "p099",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Fecha inicio tratamiento",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AT"
+      ]
+    },
+    {
+      "id": "p100",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Notificado SIVIGILA (ficha 215/342)",
+      "tipo": "si_no",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AU"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p101",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Resultado entregado a familia",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AV"
+      ]
+    },
+    {
+      "id": "p102",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 1 – Endocrino-metabólico básico",
+      "etiqueta": "Estado Línea 1",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AW"
+      ],
+      "opciones": [
+        "Completo",
+        "En proceso",
+        "Pendiente",
+        "Perdido",
+        "Fallecido",
+        "Excluido"
+      ]
+    },
+    {
+      "id": "p103",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Tecnología",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AX"
+      ],
+      "opciones": [
+        "EOA",
+        "PEAA",
+        "EOA + PEAA",
+        "No realizado"
+      ]
+    },
+    {
+      "id": "p104",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Fecha tamizaje auditivo",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AY"
+      ]
+    },
+    {
+      "id": "p105",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Días de vida al tamizaje",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna AZ"
+      ]
+    },
+    {
+      "id": "p106",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Resultado",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BA"
+      ],
+      "opciones": [
+        "Pasa",
+        "No pasa",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p107",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Factor de riesgo auditivo",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BB"
+      ]
+    },
+    {
+      "id": "p108",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Fecha retamizaje auditivo",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BC"
+      ]
+    },
+    {
+      "id": "p109",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Fecha remisión audiología/ORL",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BE"
+      ]
+    },
+    {
+      "id": "p110",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Fecha valoración especialista",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BF"
+      ]
+    },
+    {
+      "id": "p111",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Diagnóstico auditivo",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BG"
+      ]
+    },
+    {
+      "id": "p112",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 2 – Auditivo",
+      "etiqueta": "Estado Línea 2",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BH"
+      ],
+      "opciones": [
+        "Completo",
+        "En proceso",
+        "Pendiente",
+        "Perdido",
+        "Fallecido",
+        "Excluido"
+      ]
+    },
+    {
+      "id": "p113",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Fecha tamizaje visual",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BI"
+      ]
+    },
+    {
+      "id": "p114",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Reflejo rojo / examen",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BJ"
+      ]
+    },
+    {
+      "id": "p115",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Hallazgo",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BK"
+      ],
+      "opciones": [
+        "Leucocoria",
+        "Asimetría reflejo rojo",
+        "Ausencia reflejo rojo",
+        "Opacidad corneal",
+        "Otro",
+        "Ninguno"
+      ]
+    },
+    {
+      "id": "p116",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Fecha remisión oftalmología",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BL"
+      ]
+    },
+    {
+      "id": "p117",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Fecha valoración oftalmología",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BM"
+      ]
+    },
+    {
+      "id": "p118",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Diagnóstico visual",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BN"
+      ]
+    },
+    {
+      "id": "p119",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Aplica tamizaje ROP (≤32 sem o ≤1500 g)",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BO"
+      ]
+    },
+    {
+      "id": "p120",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Fecha tamizaje ROP",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BP"
+      ]
+    },
+    {
+      "id": "p121",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 3 – Visual",
+      "etiqueta": "Estado Línea 3",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BQ"
+      ],
+      "opciones": [
+        "Completo",
+        "En proceso",
+        "Pendiente",
+        "Perdido",
+        "Fallecido",
+        "Excluido"
+      ]
+    },
+    {
+      "id": "p122",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Fecha pulsioximetría",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BR"
+      ]
+    },
+    {
+      "id": "p123",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Hora pulsioximetría",
+      "tipo": "hora",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BS"
+      ]
+    },
+    {
+      "id": "p124",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Horas de vida al tamizaje",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BT"
+      ]
+    },
+    {
+      "id": "p125",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "SatO2 preductal (mano derecha) %",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BU"
+      ]
+    },
+    {
+      "id": "p126",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "SatO2 postductal (pie) %",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BV"
+      ]
+    },
+    {
+      "id": "p127",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Diferencia pre-post (%)",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BW"
+      ],
+      "formula": "diferencia_spo2"
+    },
+    {
+      "id": "p128",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Interpretación automática (<1.500 msnm)",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BX"
+      ]
+    },
+    {
+      "id": "p129",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Número de repeticiones",
+      "tipo": "numero",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BY"
+      ]
+    },
+    {
+      "id": "p130",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Resultado final",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna BZ"
+      ],
+      "opciones": [
+        "Pasa",
+        "Positivo",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p131",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Fecha valoración pediatría",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CA"
+      ]
+    },
+    {
+      "id": "p132",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Fecha ecocardiograma",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CB"
+      ]
+    },
+    {
+      "id": "p133",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Fecha cardiología pediátrica",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CC"
+      ]
+    },
+    {
+      "id": "p134",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Diagnóstico cardiológico",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CD"
+      ]
+    },
+    {
+      "id": "p135",
+      "seccion": "tamizajes",
+      "subseccion": "Línea 4 – Cardiopatía congénita compleja",
+      "etiqueta": "Estado Línea 4",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CE"
+      ],
+      "opciones": [
+        "Completo",
+        "En proceso",
+        "Pendiente",
+        "Perdido",
+        "Fallecido",
+        "Excluido"
+      ]
+    },
+    {
+      "id": "p136",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Estado global del RN",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CF"
+      ],
+      "opciones": [
+        "Completo",
+        "En proceso",
+        "Pendiente",
+        "Perdido",
+        "Fallecido",
+        "Excluido"
+      ]
+    },
+    {
+      "id": "p137",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Barrera de acceso identificada",
+      "tipo": "seleccion",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CG"
+      ],
+      "opciones": [
+        "Ninguna",
+        "Geográfica/distancia",
+        "Transporte",
+        "Cultural/lingüística",
+        "Sin contacto telefónico",
+        "Egreso temprano",
+        "Sin tecnología en IPS",
+        "Negativa familiar",
+        "Otra"
+      ]
+    },
+    {
+      "id": "p138",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Notificado a Dusakawi EPSI (positivo/pendiente)",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CH"
+      ]
+    },
+    {
+      "id": "p139",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Fecha notificación EPSI",
+      "tipo": "fecha",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CI"
+      ]
+    },
+    {
+      "id": "p140",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Observaciones",
+      "tipo": "area",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CJ"
+      ]
+    },
+    {
+      "id": "p141",
+      "seccion": "cierre",
+      "subseccion": "Cierre del registro",
+      "etiqueta": "Responsable de tamizaje en la IPS",
+      "tipo": "texto",
+      "origen": [
+        "BASE_NOMINAL_TAMIZAJE_NEONATAL_PMS193.xlsx / Base_Nominal / columna CK"
+      ]
+    },
+    {
+      "id": "p142",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Consecutivo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna A"
+      ]
+    },
+    {
+      "id": "p143",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Tipo de documento de identidad",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna B"
+      ]
+    },
+    {
+      "id": "p144",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "No. De Identificación",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna C"
+      ]
+    },
+    {
+      "id": "p145",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Apellido_1",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna D",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna E"
+      ]
+    },
+    {
+      "id": "p146",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Apellido_2",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna E",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna F"
+      ]
+    },
+    {
+      "id": "p147",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Nombre_1",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna F",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna G"
+      ]
+    },
+    {
+      "id": "p148",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Nombre_2",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna G",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna H"
+      ]
+    },
+    {
+      "id": "p149",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Fecha de Nacimiento",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna H",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna I"
+      ]
+    },
+    {
+      "id": "p150",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Edad (años)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna I",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna J"
+      ]
+    },
+    {
+      "id": "p151",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Sexo",
+      "tipo": "seleccion",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna J",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna K"
+      ],
+      "opciones": [
+        "F",
+        "M",
+        "I"
+      ]
+    },
+    {
+      "id": "p152",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Regimen Afiliacion",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna K"
+      ]
+    },
+    {
+      "id": "p153",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Pertenecia Etnica",
+      "tipo": "seleccion",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna L"
+      ],
+      "opciones": [
+        "Arhuaco",
+        "Kogui",
+        "Wiwa",
+        "Kankuamo",
+        "Wayuu",
+        "Yukpa",
+        "Ette Ennaka (Chimila)",
+        "Otro pueblo indígena",
+        "No indígena"
+      ]
+    },
+    {
+      "id": "p154",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Grupo Poblacional",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna M"
+      ]
+    },
+    {
+      "id": "p155",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Departamento Residencia",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna N",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna L"
+      ]
+    },
+    {
+      "id": "p156",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Municipio de Residencia",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna O",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna M"
+      ]
+    },
+    {
+      "id": "p157",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "zona",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna P"
+      ]
+    },
+    {
+      "id": "p158",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Etnia",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna Q",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna N"
+      ]
+    },
+    {
+      "id": "p159",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Asentamiento/Rancheria/Comunidad",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna R"
+      ]
+    },
+    {
+      "id": "p160",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Teléfono usuaria",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna S",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna O"
+      ]
+    },
+    {
+      "id": "p161",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Dirección",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna T",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna P"
+      ]
+    },
+    {
+      "id": "p162",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Nivel Educativo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna U"
+      ]
+    },
+    {
+      "id": "p163",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Discapacidad",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna V"
+      ]
+    },
+    {
+      "id": "p164",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Mujer cabeza de Hogar",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna W"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p165",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Ocupación",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna X"
+      ]
+    },
+    {
+      "id": "p166",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "Estado Civil",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna Y"
+      ]
+    },
+    {
+      "id": "p167",
+      "seccion": "madre",
+      "subseccion": "Adecuación sociocultural",
+      "etiqueta": "Control Tradicional",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna Z"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p168",
+      "seccion": "madre",
+      "subseccion": "Adecuación sociocultural",
+      "etiqueta": "Gestante Renuente",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AA"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p169",
+      "seccion": "madre",
+      "subseccion": "Adecuación sociocultural",
+      "etiqueta": "Inasistente",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AB"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p170",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Nombre de la IPS Primaria",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AC"
+      ]
+    },
+    {
+      "id": "p171",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fecha de Ingreso al Control Prenatal",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AD"
+      ]
+    },
+    {
+      "id": "p172",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "FUM",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AE"
+      ]
+    },
+    {
+      "id": "p173",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "FPP",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AF"
+      ]
+    },
+    {
+      "id": "p174",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Dias para el parto",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AG"
+      ]
+    },
+    {
+      "id": "p175",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Alarma",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AH"
+      ]
+    },
+    {
+      "id": "p176",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Edad Gest Inicio Control",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AI"
+      ]
+    },
+    {
+      "id": "p177",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Trimestre inicio control",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AJ"
+      ]
+    },
+    {
+      "id": "p178",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – G",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AK"
+      ]
+    },
+    {
+      "id": "p179",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – P",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AL"
+      ]
+    },
+    {
+      "id": "p180",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – C",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AM"
+      ]
+    },
+    {
+      "id": "p181",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – A",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AN"
+      ]
+    },
+    {
+      "id": "p182",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – M",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AO"
+      ]
+    },
+    {
+      "id": "p183",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Fórmula obstétrica – V",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AP"
+      ]
+    },
+    {
+      "id": "p184",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Hipertensión arterial",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AQ"
+      ]
+    },
+    {
+      "id": "p185",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Diabetes",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AR"
+      ]
+    },
+    {
+      "id": "p186",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – VIH",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AS"
+      ]
+    },
+    {
+      "id": "p187",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Sifilis",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AT"
+      ]
+    },
+    {
+      "id": "p188",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Tuberculosis",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AU"
+      ]
+    },
+    {
+      "id": "p189",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Otras condiciones medicas graves",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AV"
+      ]
+    },
+    {
+      "id": "p190",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes Personales – Si la respuesta anterior es SI describa la otra condición médica grave",
+      "tipo": "area",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AW"
+      ]
+    },
+    {
+      "id": "p191",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Antecedentes de eventos obstétricos desfavorables",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AX"
+      ]
+    },
+    {
+      "id": "p192",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Periodo Intergenésico",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AY"
+      ]
+    },
+    {
+      "id": "p193",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Peso",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna AZ"
+      ]
+    },
+    {
+      "id": "p194",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Talla (metros)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BA"
+      ]
+    },
+    {
+      "id": "p195",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Indice de Masa Corporal (IMC)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BB"
+      ],
+      "formula": "imc"
+    },
+    {
+      "id": "p196",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Clasificación del IMC",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BC"
+      ]
+    },
+    {
+      "id": "p197",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Apoyo familiar",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BD"
+      ]
+    },
+    {
+      "id": "p198",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Embarazo deseado",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BE"
+      ]
+    },
+    {
+      "id": "p199",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Hábitos de riesgo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BF"
+      ]
+    },
+    {
+      "id": "p200",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Ha sido victima de violencia fisica o psicologica",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BG"
+      ]
+    },
+    {
+      "id": "p201",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Ha sido victima de abuso sexual",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BH"
+      ]
+    },
+    {
+      "id": "p202",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Riesgos psicosociales – Se Identifican Causales Para IVE?",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BI"
+      ]
+    },
+    {
+      "id": "p203",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Clasificación del riesgo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BJ"
+      ]
+    },
+    {
+      "id": "p204",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Causas de Alto Riesgo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BK"
+      ]
+    },
+    {
+      "id": "p205",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Remitida a especialista?",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BL"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p206",
+      "seccion": "gestacion",
+      "subseccion": "Valoración inicial del riesgo",
+      "etiqueta": "Describa cual(es) especialistas la han atendido",
+      "tipo": "area",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BM"
+      ]
+    },
+    {
+      "id": "p207",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Asesoria Prueba VIH",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BN"
+      ]
+    },
+    {
+      "id": "p208",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Asesoria VIH",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BO"
+      ]
+    },
+    {
+      "id": "p209",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Toma Prueba VIH Primer Tamizaje",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BP"
+      ]
+    },
+    {
+      "id": "p210",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Toma Prueba VIH Primer Tamizaje",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BQ"
+      ]
+    },
+    {
+      "id": "p211",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Toma Prueba VIH Segundo Tamizaje",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BR"
+      ]
+    },
+    {
+      "id": "p212",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Toma Prueba VIH Segundo Tamizaje",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BS"
+      ]
+    },
+    {
+      "id": "p213",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Toma Prueba VIH Tercer Tamizaje",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BT"
+      ]
+    },
+    {
+      "id": "p214",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Toma Prueba VIH Tercer Tamizaje",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BU"
+      ]
+    },
+    {
+      "id": "p215",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Primera Prueba Treponemica Rapida Sifilis",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BV"
+      ]
+    },
+    {
+      "id": "p216",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Primera Prueba Treponemica Rapida Sifilis",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BW"
+      ]
+    },
+    {
+      "id": "p217",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Segunda Prueba Treponemica Rapida Sifilis",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BX"
+      ]
+    },
+    {
+      "id": "p218",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Segunda Prueba Treponemica Rapida Sifilis",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BY"
+      ]
+    },
+    {
+      "id": "p219",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Tercera Prueba Treponemica Rapida Sifilis",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna BZ"
+      ]
+    },
+    {
+      "id": "p220",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Trimestre Tercera Prueba Treponemica Rapida Sifilis",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CA"
+      ]
+    },
+    {
+      "id": "p221",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha de la realizacion Antigeno Superficie Hepatitis B",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CB"
+      ]
+    },
+    {
+      "id": "p222",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Resultado Antigeno Superficie Hepatitis B",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CC"
+      ]
+    },
+    {
+      "id": "p223",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha de la realización de la prueba de IGG para Rubeola, Mujeres no vacunadas previamente",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CD"
+      ]
+    },
+    {
+      "id": "p224",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Tamizaje Toxoplasma",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CE"
+      ]
+    },
+    {
+      "id": "p225",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Resultado Toxoplasma",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CF"
+      ]
+    },
+    {
+      "id": "p226",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha de Tamizaje para CA Cuello Uterino (Citologia Cervicouterina), Según Esquema",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CG"
+      ]
+    },
+    {
+      "id": "p227",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha de Toma de Urocultivo y Antibiograma",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CH"
+      ]
+    },
+    {
+      "id": "p228",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Toma Glicemia",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CI"
+      ]
+    },
+    {
+      "id": "p229",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Realizacion Hemograma Inicial",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CJ"
+      ]
+    },
+    {
+      "id": "p230",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Realizacion Segundo Hemograma (Semana 28)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CK"
+      ]
+    },
+    {
+      "id": "p231",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Realizacion Hemoclasificación",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CL"
+      ]
+    },
+    {
+      "id": "p232",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Realizacion de Prueba de Tamizaje para Estreptococo Grupo B (Semanas 35 - 37)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CM"
+      ]
+    },
+    {
+      "id": "p233",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Realizacion de Prueba de Tolerancia Oral Glucosa (Semanas 24 - 28)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CN"
+      ]
+    },
+    {
+      "id": "p234",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha Toma de Gota Gruesa (Malaria)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CO"
+      ]
+    },
+    {
+      "id": "p235",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas de Tamizaje (Trimestre de realización) – Fecha de Realización Tamizaje Chagas",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CP"
+      ]
+    },
+    {
+      "id": "p236",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – Toma Segunda Prueba VIH",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CQ"
+      ]
+    },
+    {
+      "id": "p237",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – Trimestre Toma segunda Prueba VIH",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CR"
+      ]
+    },
+    {
+      "id": "p238",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – Prueba confirmatoria Según Algoritmo",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CS"
+      ]
+    },
+    {
+      "id": "p239",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – Trimestre Prueba confirmatoria Según Algoritmo",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CT"
+      ]
+    },
+    {
+      "id": "p240",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – FTA ABS",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CU"
+      ]
+    },
+    {
+      "id": "p241",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Pruebas Confirmatorias para VIH y Sífilis Gestacional – Trimestre FTA ABS",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CV"
+      ]
+    },
+    {
+      "id": "p242",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Vacunacion – FECHA DE APLICACIÓN INFLUENZA (Desde Semana 14)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CW"
+      ]
+    },
+    {
+      "id": "p243",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Vacunacion – FECHA DE APLICACIÓN TOXOIDE Según Antecedente Vacunal",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CX"
+      ]
+    },
+    {
+      "id": "p244",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Vacunacion – FECHA DE APLICACIÓN DPT ACELULAR (Semana 26)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CY"
+      ]
+    },
+    {
+      "id": "p245",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Ecografia obstétrica – Primera (10 - 13)",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna CZ"
+      ]
+    },
+    {
+      "id": "p246",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Ecografia obstétrica – Segunda",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DA"
+      ]
+    },
+    {
+      "id": "p247",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Ecografia obstétrica – Ecografia Obstetrica para la detección de anomalias estructurales (18 - 23)",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DB"
+      ]
+    },
+    {
+      "id": "p248",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Ecografia obstétrica – Otras ecografías?",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DC"
+      ]
+    },
+    {
+      "id": "p249",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Suministro Micronutrientes – Fecha suministro Acido Folico",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DD"
+      ]
+    },
+    {
+      "id": "p250",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Suministro Micronutrientes – Fecha suministro Calcio (Semana 14)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DE"
+      ]
+    },
+    {
+      "id": "p251",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Suministro Micronutrientes – Fecha suministro Hierro",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DF"
+      ]
+    },
+    {
+      "id": "p252",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Fecha Desparasitación Antihelmintica II y III Trimestre (Albendazo 400 Mg Dosis Unica)",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DG"
+      ]
+    },
+    {
+      "id": "p253",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Información en Salud",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DH"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p254",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "Fecha Consulta odontológica",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DI"
+      ]
+    },
+    {
+      "id": "p255",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 1er Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DJ"
+      ]
+    },
+    {
+      "id": "p256",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Quien Realizó el Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DK",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DM",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DO",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DQ",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DS",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DU",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DW",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DY",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EA",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EC"
+      ]
+    },
+    {
+      "id": "p257",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 2do Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DL"
+      ]
+    },
+    {
+      "id": "p258",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 3er Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DN"
+      ]
+    },
+    {
+      "id": "p259",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 4to Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DP"
+      ]
+    },
+    {
+      "id": "p260",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 5to Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DR"
+      ]
+    },
+    {
+      "id": "p261",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 6to Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DT"
+      ]
+    },
+    {
+      "id": "p262",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 7mo Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DV"
+      ]
+    },
+    {
+      "id": "p263",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – fecha 8vo Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DX"
+      ]
+    },
+    {
+      "id": "p264",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha 9no Control",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna DZ"
+      ]
+    },
+    {
+      "id": "p265",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCION DEL CONTROL PRENATAL: Escriba en la primera columna la fecha del CPN y en la segunda quien realizó el CPN: Md (Médico); Enf (Enfermera); GO (Ginecoobstetra); Otro: Quién? – Fecha Otros Controles Prenatales",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EB"
+      ]
+    },
+    {
+      "id": "p266",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha Primera Consulta Ginecología",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna ED"
+      ]
+    },
+    {
+      "id": "p267",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha Segunda Consulta Ginecología",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EE"
+      ]
+    },
+    {
+      "id": "p268",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha Tercera Consulta Ginecología",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EF"
+      ]
+    },
+    {
+      "id": "p269",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha Consulta Nutrición",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EG"
+      ]
+    },
+    {
+      "id": "p270",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha Consulta Psicología",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EH"
+      ]
+    },
+    {
+      "id": "p271",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Fecha de Atención Otro Especialista",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EI"
+      ]
+    },
+    {
+      "id": "p272",
+      "seccion": "gestacion",
+      "subseccion": "Actividades básicas de control prenatal",
+      "etiqueta": "ATENCIÓN ESPECIALIZADA: Escriba la(s) fecha(s) (DD/MM/AA) de consultas realizadas por especialistas – Quien Realizó la Consulta",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EJ"
+      ]
+    },
+    {
+      "id": "p273",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hipertensión inducida por el embarazo – 1.Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EK"
+      ]
+    },
+    {
+      "id": "p274",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hipertensión inducida por el embarazo – 2.Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EL"
+      ]
+    },
+    {
+      "id": "p275",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hipertensión inducida por el embarazo – 3.Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EM"
+      ]
+    },
+    {
+      "id": "p276",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sangrado vaginal – 1. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EN"
+      ]
+    },
+    {
+      "id": "p277",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sangrado vaginal – 2. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EO"
+      ]
+    },
+    {
+      "id": "p278",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sangrado vaginal – 3. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EP"
+      ]
+    },
+    {
+      "id": "p279",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Infeccion urinaria – 1. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EQ"
+      ]
+    },
+    {
+      "id": "p280",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Infeccion urinaria – 2. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna ER"
+      ]
+    },
+    {
+      "id": "p281",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Infeccion urinaria – 3. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna ES"
+      ]
+    },
+    {
+      "id": "p282",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "VIH – 1. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna ET"
+      ]
+    },
+    {
+      "id": "p283",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "VIH – 2. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EU"
+      ]
+    },
+    {
+      "id": "p284",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "VIH – 3. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EV"
+      ]
+    },
+    {
+      "id": "p285",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sifilis – 1. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EW"
+      ]
+    },
+    {
+      "id": "p286",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sifilis – 2. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EX"
+      ]
+    },
+    {
+      "id": "p287",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Sifilis – 3. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EY"
+      ]
+    },
+    {
+      "id": "p288",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hepatitis B – 1. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna EZ"
+      ]
+    },
+    {
+      "id": "p289",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hepatitis B – 2. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FA"
+      ]
+    },
+    {
+      "id": "p290",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Hepatitis B – 3. Trim",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FB"
+      ]
+    },
+    {
+      "id": "p291",
+      "seccion": "gestacion",
+      "subseccion": "Patologías durante la gestación",
+      "etiqueta": "Otras Patologías (Descripción y Fecha)",
+      "tipo": "area",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FC"
+      ]
+    },
+    {
+      "id": "p292",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Priorizada para seguimiento especial",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FD"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p293",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Notificación a la IPS",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FE"
+      ]
+    },
+    {
+      "id": "p294",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Remisión",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FF"
+      ]
+    },
+    {
+      "id": "p295",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Visita domiciliara",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FG"
+      ]
+    },
+    {
+      "id": "p296",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Acompañamiento durante CPN, imágenes dx y examenes de laboratorio",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FH"
+      ]
+    },
+    {
+      "id": "p297",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Casa de Paso",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FI"
+      ]
+    },
+    {
+      "id": "p298",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Apoyo para transporte",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FJ"
+      ]
+    },
+    {
+      "id": "p299",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Activación de red de apoyo comunitaria",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FK"
+      ]
+    },
+    {
+      "id": "p300",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Coordinación de estrategias con SDSM",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FL"
+      ]
+    },
+    {
+      "id": "p301",
+      "seccion": "cierre",
+      "subseccion": "Gestión del riesgo (equipo departamental)",
+      "etiqueta": "Estrategias y acciones de gestión de riesgo en salud – Observaciones",
+      "tipo": "area",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FM"
+      ]
+    },
+    {
+      "id": "p302",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 1,: Relacionados con signos y síntomas de enfermedad específica – Tipo de evento",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FN"
+      ]
+    },
+    {
+      "id": "p303",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 1,: Relacionados con signos y síntomas de enfermedad específica – Fecha",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FO"
+      ]
+    },
+    {
+      "id": "p304",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 2: Relacionados con falla o disfunción orgánica – Tipo de evento",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FP"
+      ]
+    },
+    {
+      "id": "p305",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 2: Relacionados con falla o disfunción orgánica – Fecha",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FQ"
+      ]
+    },
+    {
+      "id": "p306",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 3: Relacionados con el manejo instaurado a la paciente – Tipo de evento",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FR"
+      ]
+    },
+    {
+      "id": "p307",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Criterio 3: Relacionados con el manejo instaurado a la paciente – Fecha",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FS"
+      ]
+    },
+    {
+      "id": "p308",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Causa principal de la MME",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FT"
+      ]
+    },
+    {
+      "id": "p309",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Nombre del funcionario al que se le asignó el caso",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FU"
+      ]
+    },
+    {
+      "id": "p310",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Se concertó plan de mejora con la IPS",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FV"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p311",
+      "seccion": "morbilidad",
+      "subseccion": "Criterios de morbilidad materna extrema",
+      "etiqueta": "Evaluación y seguimiento al plan de mejora",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FW"
+      ]
+    },
+    {
+      "id": "p312",
+      "seccion": "parto",
+      "subseccion": "Aborto",
+      "etiqueta": "Tipo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FX",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HM",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna R"
+      ]
+    },
+    {
+      "id": "p313",
+      "seccion": "parto",
+      "subseccion": "Aborto",
+      "etiqueta": "Fecha",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FY",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HO",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna S"
+      ]
+    },
+    {
+      "id": "p314",
+      "seccion": "parto",
+      "subseccion": "Aborto",
+      "etiqueta": "Semanas de Gestación",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna FZ",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna T"
+      ]
+    },
+    {
+      "id": "p315",
+      "seccion": "parto",
+      "subseccion": "Aborto",
+      "etiqueta": "Complicaciones",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GA",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna U"
+      ]
+    },
+    {
+      "id": "p316",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Fecha de Parto",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GB",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna V"
+      ]
+    },
+    {
+      "id": "p317",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Caracteristicas del parto",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GC"
+      ]
+    },
+    {
+      "id": "p318",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Parto atendido por",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GD",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna W"
+      ]
+    },
+    {
+      "id": "p319",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "No. Semanas de gestación",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GE"
+      ]
+    },
+    {
+      "id": "p320",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Complicaciones durante el parto",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GF",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna X"
+      ]
+    },
+    {
+      "id": "p321",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Tipo Complicación",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GG"
+      ]
+    },
+    {
+      "id": "p322",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "UCI Materna",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GH",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna Y"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p323",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Toma de pruebas ITS intraparto",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GI"
+      ]
+    },
+    {
+      "id": "p324",
+      "seccion": "parto",
+      "subseccion": "Parto",
+      "etiqueta": "Resultado POSITIVO",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GJ"
+      ]
+    },
+    {
+      "id": "p325",
+      "seccion": "morbilidad",
+      "subseccion": "Defunción",
+      "etiqueta": "Fecha",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GK"
+      ]
+    },
+    {
+      "id": "p326",
+      "seccion": "morbilidad",
+      "subseccion": "Defunción",
+      "etiqueta": "Causa de la defunción",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GL"
+      ]
+    },
+    {
+      "id": "p327",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Multiplicidad del embarazo",
+      "tipo": "si_no",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GM",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna Z"
+      ],
+      "opciones": [
+        "SI",
+        "NO"
+      ]
+    },
+    {
+      "id": "p328",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 1 – Registro Civil",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GN"
+      ]
+    },
+    {
+      "id": "p329",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 1 – Nombre",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GO"
+      ]
+    },
+    {
+      "id": "p330",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 1 – Sexo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GP"
+      ]
+    },
+    {
+      "id": "p331",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 1 – Peso al nacer (grs)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GQ"
+      ]
+    },
+    {
+      "id": "p332",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 1 – Condición del Recién Nacido",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GR"
+      ]
+    },
+    {
+      "id": "p333",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 1 – Toma TSH",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GS"
+      ]
+    },
+    {
+      "id": "p334",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 1 – Toma Hemoclasificación",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GT"
+      ]
+    },
+    {
+      "id": "p335",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 1 – Dx. Hipotiroidismo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GU"
+      ]
+    },
+    {
+      "id": "p336",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 1 – TTO Hipotiroidismo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GV"
+      ]
+    },
+    {
+      "id": "p337",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 1 – Tiempo de lectura",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GW"
+      ]
+    },
+    {
+      "id": "p338",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido 1 – UCI Neonatal",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GX"
+      ]
+    },
+    {
+      "id": "p339",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido 1 – Vacunación con BCG",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GY"
+      ]
+    },
+    {
+      "id": "p340",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido 1 – Vacunación Antihepatitis B",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna GZ"
+      ]
+    },
+    {
+      "id": "p341",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 2 – Registro Civil",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HA"
+      ]
+    },
+    {
+      "id": "p342",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 2 – Nombre",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HB"
+      ]
+    },
+    {
+      "id": "p343",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 2 – Sexo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HC"
+      ]
+    },
+    {
+      "id": "p344",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 2 – Peso al nacer",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HD"
+      ]
+    },
+    {
+      "id": "p345",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido 2 – Condición del Recién Nacido",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HE"
+      ]
+    },
+    {
+      "id": "p346",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 2 – Toma TSH",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HF"
+      ]
+    },
+    {
+      "id": "p347",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 2 – Toma Hemoclasificación",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HG"
+      ]
+    },
+    {
+      "id": "p348",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 2 – Dx. Hipotiroidismo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HH"
+      ]
+    },
+    {
+      "id": "p349",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 2 – Tiempo de lectura",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HI"
+      ]
+    },
+    {
+      "id": "p350",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido 2 – TTO Hipotiroidismo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HJ"
+      ]
+    },
+    {
+      "id": "p351",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido 2 – Vacunación con BCG",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HK"
+      ]
+    },
+    {
+      "id": "p352",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido 2 – Vacunación Antihepatitis B",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HL"
+      ]
+    },
+    {
+      "id": "p353",
+      "seccion": "parto",
+      "subseccion": "Planificación familiar",
+      "etiqueta": "OBSEVACIONES",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BD / columna HN"
+      ]
+    },
+    {
+      "id": "p354",
+      "seccion": "madre",
+      "subseccion": "Datos personales de la madre",
+      "etiqueta": "No",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna B"
+      ]
+    },
+    {
+      "id": "p355",
+      "seccion": "identificacion",
+      "subseccion": "Prestador",
+      "etiqueta": "Nombre de la IPS Primaria",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna Q"
+      ]
+    },
+    {
+      "id": "p356",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – numero de nacido vivo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AA"
+      ]
+    },
+    {
+      "id": "p357",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – numero de Registro Civil",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AB"
+      ]
+    },
+    {
+      "id": "p358",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – edad gestacional al nacer",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AC"
+      ]
+    },
+    {
+      "id": "p359",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – Sexo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AD"
+      ]
+    },
+    {
+      "id": "p360",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – talla",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AE"
+      ]
+    },
+    {
+      "id": "p361",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "Recien Nacido – Peso al nacer (grs)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AF"
+      ]
+    },
+    {
+      "id": "p362",
+      "seccion": "atencion",
+      "subseccion": "Vacunación y atención al nacer",
+      "etiqueta": "Recien Nacido – UCI Neonatal",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AG"
+      ]
+    },
+    {
+      "id": "p363",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido – Resultado Tamizaje Endocrimo Metabolico",
+      "tipo": "seleccion",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AH",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AI",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AJ",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AK",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AL",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AM",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AN",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AO"
+      ],
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Muestra rechazada",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p364",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Recien Nacido – tamizajes complentarios",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AP",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AQ",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AR",
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AS"
+      ]
+    },
+    {
+      "id": "p365",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "CITA CONTROL ASIGNADA ANTES DEL EGRESO CON PEDIATRIA",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AT"
+      ]
+    },
+    {
+      "id": "p366",
+      "seccion": "rn",
+      "subseccion": "Datos del recién nacido (puerperio)",
+      "etiqueta": "EFECTIVIDAD DE CITA",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AU"
+      ]
+    },
+    {
+      "id": "p367",
+      "seccion": "cierre",
+      "subseccion": "Egreso seguro",
+      "etiqueta": "TIPO",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AV"
+      ]
+    },
+    {
+      "id": "p368",
+      "seccion": "cierre",
+      "subseccion": "Egreso seguro",
+      "etiqueta": "FECHA",
+      "tipo": "fecha",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AW"
+      ]
+    },
+    {
+      "id": "p369",
+      "seccion": "cierre",
+      "subseccion": "Egreso seguro",
+      "etiqueta": "CITA CONTROL ANTES DEL EGRESO",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AX"
+      ]
+    },
+    {
+      "id": "p370",
+      "seccion": "cierre",
+      "subseccion": "Egreso seguro",
+      "etiqueta": "EFECTIVIDAD",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AY"
+      ]
+    },
+    {
+      "id": "p371",
+      "seccion": "cierre",
+      "subseccion": "Egreso seguro",
+      "etiqueta": "OBSERVACIONES GENERALES",
+      "tipo": "area",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / BASE DE PUERPERIO / columna AZ"
+      ]
+    },
+    {
+      "id": "p372",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – numero de nacido vivo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p373",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – numero de Registro Civil",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p374",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – edad gestacional al nacer",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p375",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – Nombre",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p376",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – Sexo",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p377",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – talla",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p378",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – Peso al nacer (grs)",
+      "tipo": "numero",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p379",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – UCI Neonatal",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    },
+    {
+      "id": "p380",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – Resultado Tamizaje Endocrimo Metabolico",
+      "tipo": "seleccion",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ],
+      "opciones": [
+        "Negativo",
+        "Positivo",
+        "Muestra rechazada",
+        "Pendiente"
+      ]
+    },
+    {
+      "id": "p381",
+      "seccion": "tamizajes",
+      "subseccion": "Tamizajes del puerperio",
+      "etiqueta": "Tamizajes complementarios – tamizajes complentarios",
+      "tipo": "texto",
+      "origen": [
+        "DGR-PMS-FT-79 BASE DE RECIEN NACIDO Y PUERPERIO.xlsx / INSTRUCTIVO / fila 5"
+      ]
+    }
+  ]
+}

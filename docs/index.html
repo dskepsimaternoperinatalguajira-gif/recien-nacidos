@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self' https://script.google.com https://script.googleusercontent.com; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Cuestionario unificado RN – Dusakawi EPSI</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <div>
+      <strong>Cuestionario unificado · Recién nacidos La Guajira</strong>
+      <span id="info-prestador" class="sutil"></span>
+    </div>
+    <button id="boton-salir" type="button" class="secundario" hidden>Cerrar sesión</button>
+  </header>
+
+  <main>
+    <p id="aviso-config" class="error" hidden>Falta configurar la dirección del servidor en config.js.</p>
+
+    <section id="vista-login" class="acceso" hidden>
+      <div class="tarjeta-acceso">
+        <header class="acceso-cabecera">
+          <div class="marca" aria-hidden="true">RN</div>
+          <h1>Cuestionario RN</h1>
+          <p>Recién nacidos · La Guajira · Dusakawi EPSI</p>
+        </header>
+        <div class="pestanas" role="tablist">
+          <button type="button" role="tab" class="pestana activa" data-perfil="prestador" aria-selected="true">Prestadores</button>
+          <button type="button" role="tab" class="pestana" data-perfil="administrador" aria-selected="false">Funcionarios</button>
+        </div>
+        <form id="formulario-login" class="acceso-cuerpo" novalidate>
+          <input type="hidden" id="login-perfil" value="prestador">
+          <p id="descripcion-perfil" class="sutil">Diligencie los registros de sus recién nacidos y envíelos al programa.</p>
+          <label>Usuario
+            <input id="login-usuario" name="usuario" autocomplete="username" required maxlength="100">
+          </label>
+          <label>Clave
+            <input id="login-clave" name="clave" type="password" autocomplete="current-password" required maxlength="200">
+          </label>
+          <p id="login-error" class="error" role="alert"></p>
+          <button type="submit" class="boton-ancho">Ingresar al sistema</button>
+        </form>
+        <p class="acceso-pie">Acceso restringido · Solo personal autorizado</p>
+      </div>
+    </section>
+
+    <section id="vista-lista" hidden>
+      <div class="tarjeta">
+        <h1>Mis registros</h1>
+        <form id="formulario-nuevo" class="fila">
+          <label class="crecer">Identificador del recién nacido
+            <input id="nuevo-identificador" required maxlength="40" pattern="[A-Za-z0-9._\-]{1,40}"
+                   placeholder="Ej.: RC-2026-0001">
+          </label>
+          <button type="submit">Crear registro</button>
+        </form>
+        <p id="lista-error" class="error" role="alert"></p>
+        <ul id="lista-registros" class="lista"></ul>
+        <p id="lista-vacia" class="sutil" hidden>Aún no tiene registros.</p>
+      </div>
+    </section>
+
+    <section id="vista-admin" hidden>
+      <div class="tarjeta">
+        <h1>Registros de prestadores</h1>
+        <p id="resumen-admin" class="sutil"></p>
+        <button type="button" class="boton-enlace" id="boton-respaldo">Guardar respaldo en Drive</button>
+        <p id="admin-mensaje" class="sutil" aria-live="polite"></p>
+        <p id="admin-error" class="error" role="alert"></p>
+        <ul id="lista-admin" class="lista"></ul>
+        <p id="admin-vacia" class="sutil" hidden>Ningún prestador ha creado registros.</p>
+      </div>
+    </section>
+
+    <section id="vista-registro" hidden>
+      <div class="tarjeta cabecera-registro">
+        <div>
+          <h1 id="titulo-registro"></h1>
+          <p class="sutil">
+            <span id="estado-registro" class="etiqueta"></span>
+            Avance <span id="avance-registro">0</span>% de las preguntas ·
+            <span id="estado-guardado" aria-live="polite"></span>
+          </p>
+          <p id="revision-registro" class="sutil" hidden></p>
+        </div>
+        <div class="acciones">
+          <button type="button" class="secundario" id="boton-volver">Volver</button>
+          <button type="button" class="secundario" id="boton-guardar">Guardar ahora</button>
+          <button type="button" class="secundario" id="boton-prueba">Llenar con datos de prueba</button>
+          <button type="button" class="secundario" id="boton-reabrir" hidden>Reabrir para corregir</button>
+          <button type="button" class="secundario" id="boton-revisado" hidden>Marcar como revisado</button>
+          <button type="button" class="secundario" id="boton-devolver" hidden>Devolver al prestador</button>
+          <button type="button" id="boton-enviar">Enviar al programa</button>
+        </div>
+      </div>
+      <div class="tarjeta">
+        <label class="buscador">Buscar pregunta
+          <input id="buscador" type="search" placeholder="Escriba una palabra clave">
+        </label>
+        <p id="registro-error" class="error" role="alert"></p>
+      </div>
+      <div id="contenedor-secciones"></div>
+    </section>
+  </main>
+</body>
+</html>
