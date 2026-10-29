@@ -1,0 +1,12 @@
+node_modules/
+datos/
+credenciales/
+*.json.key
+*.db
+*.db-wal
+*.db-shm
+# Secretos y exportaciones con datos de pacientes: nunca al repositorio.
+.env
+*.env
+*.xlsx
+*.log
